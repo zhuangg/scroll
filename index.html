@@ -13,18 +13,27 @@
             wiwdth: 100%;
             margin: 0;
         }
+        
+        *{
+            box-sizing: border-box;
+        }
+        html,body{
+            wiwdth: 100%;
+            margin: 0;
+        }
         ::-webkit-scrollbar {
             width: 10px;
             height: 10px
         }
 
         ::-webkit-scrollbar-track-piece {
-            background-color: #fff !important
+            background-color: #red !important
         }
 
         ::-webkit-scrollbar-thumb {
             border-radius: 0;
-            background-color: #018ee8
+            background-color: blue;
+            border-radius: 20px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
@@ -34,8 +43,9 @@
         ::-webkit-scrollbar-thumb:active {
             height: 50px;
             -webkit-border-radius: 2px;
-            background-color: #033367
+            background-color: red
         }
+
         .layer {
             width: 100%;
             height: 3000px;
